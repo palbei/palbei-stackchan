@@ -1,0 +1,21 @@
+Palbei for Stack-chan (palbei-stackchan)
+========================================
+
+This firmware is based on / inspired by the open-source Stack-chan project:
+  https://github.com/stack-chan/stack-chan
+
+Upstream Stack-chan copyright and contributors remain with their respective authors.
+This repository's own source code is released under the MIT License (see LICENSE).
+
+Third-party components (not GPL):
+
+- M5Unified / M5GFX — MIT License — Copyright M5Stack
+- M5Stack-Avatar — MIT License — Copyright Shinya Ishikawa
+- ArduinoJson — MIT License — Copyright Benoit Blanchon
+- ESP32Servo — Apache License 2.0
+- ESP32WebServer — derived from Arduino ESP8266/ESP32 WebServer (typically LGPL-2.1); kept as a separate library dependency
+- esp32-camera — Apache License 2.0 — Copyright Espressif Systems
+
+Previous GPL-only dependencies (ESP8266Audio, ServoEasing) have been removed and replaced with MIT-compatible local helpers (WavPlayer, EasyServo).
+
+Official product site: https://www.palbei.com
